@@ -1,5 +1,6 @@
 import axios from 'axios'
 import {useEffect, useState} from "react";
+import Search from '/servicios/Search'
 
 export default function show() {
     const [characters, setCharacters] = useState([])
@@ -17,7 +18,7 @@ export default function show() {
     }, [])
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+        <div className="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 p-4 " style={{ marginTop: '100px' }}>
             {characters.map((item) => (
                 <div className="flex flex-col items-center">
                     <h1 className="text-xl">{item.name}</h1>

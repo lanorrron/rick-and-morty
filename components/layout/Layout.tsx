@@ -1,22 +1,19 @@
 import Head from 'next/head'
-import Header from './Header'
-import SideBar from './SideBar'
+import Header from '../layout/Header'
+import SideBar from '../layout/SideBar'
 
 const Layout = ({ children }) => {
     return (
         <div className="flex">
-            <div className="w-2/12">
-                <SideBar />
-            </div>
-            <div className="w-10/12 flex flex-col">
+            <div className="w-full flex flex-col">
                 <div>
                     <Head>
                         <title>Rick and morty</title>
                         <meta name="Description" content="Landing page" />
                     </Head>
-                    <Header />
+                    <Header className={'flex'}/>
                 </div>
-                <div className="flex-grow mx-4">{children}</div>
+                <div className={'md:mt2 lg:mt-2 '}>{children}</div>
             </div>
         </div>
     );

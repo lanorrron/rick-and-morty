@@ -10,22 +10,22 @@ const Sidebar = () => {
                 <nav>
                     <ul className="mt-4">
                         <li className="py-2">
-                            <a href="#" className="text-blue-500 hover:text-blue-700">
+                            <a href="@/components/layout/SideBar#" className="text-white hover:text-blue-700">
                                 Historia
                             </a>
                         </li>
                         <li className="py-2">
-                            <a href="#" className="text-blue-500 hover:text-blue-700">
+                            <a href="@/components/layout/SideBar#" className="text-white hover:text-blue-700">
                                 About
                             </a>
                         </li>
                         <li className="py-2">
-                            <a href="#" className="text-blue-500 hover:text-blue-700">
+                            <a href="@/components/layout/SideBar#" className="text-white hover:text-blue-700">
                                 Services
                             </a>
                         </li>
                         <li className="py-2">
-                            <a href="#" className="text-blue-500 hover:text-blue-700">
+                            <a href="@/components/layout/SideBar#" className="text-white hover:text-blue-700">
                                 Contact
                             </a>
                         </li>

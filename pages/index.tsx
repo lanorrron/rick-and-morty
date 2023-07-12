@@ -1,5 +1,5 @@
-import Show from '../components/Show'
-import Layout from '@/components/Layout'
+import Show from '../components/layout/Show'
+import Layout from '@/components/layout/Layout'
 export default function Home() {
     return (
         <Layout>
